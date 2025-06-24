@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DulceFácil.Infraestructura.AccesoDatos;
 
-public partial class DulceFacilContext : DbContext
+public partial class DulceFacilDBContext : DbContext
 {
-    public DulceFacilContext()
+    public DulceFacilDBContext()
     {
     }
 
-    public DulceFacilContext(DbContextOptions<DulceFacilContext> options)
+    public DulceFacilDBContext(DbContextOptions<DulceFacilDBContext> options)
         : base(options)
     {
     }

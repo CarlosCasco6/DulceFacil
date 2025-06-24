@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abtracciones\" />
     <Folder Include="Entidades\" />
     <Folder Include="ObjetosValor\" />
   </ItemGroup>
