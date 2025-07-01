@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DulceFácil.Aplicacion.Servicios;
 using DulceFácil.Dominio.Modelos.Abstracciones;
 using DulceFácil.Infraestructura.AccesoDatos;
 using DulceFácil.Infraestructura.AccesoDatos.Repositorio;
 
 namespace DulceFácil.Aplicacion.ServicosImpl
 {
-    internal class ClientesServiciosImpl
+    public class ClientesServiciosImpl : IClientesServicios  
     {
         private IClientesRepositorio clientesRepositorio;
 

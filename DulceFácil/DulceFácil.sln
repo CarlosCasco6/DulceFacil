@@ -46,6 +46,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulceFácil.Infraestructura
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulceFácil.Aplicacion.DTO", "DulceFácil.Aplicacion.DTO\DulceFácil.Aplicacion.DTO.csproj", "{32076577-E5F9-48DB-994A-F1214A0CD41D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Test", "5. Test", "{1B3A2BA0-73EC-4505-9DF0-94BE5E222939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDulceFacil", "TestDulceFacil\TestDulceFacil.csproj", "{11BC45AA-2D5F-4DA3-AD9F-C1DF1E0323AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +92,10 @@ Global
 		{32076577-E5F9-48DB-994A-F1214A0CD41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32076577-E5F9-48DB-994A-F1214A0CD41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32076577-E5F9-48DB-994A-F1214A0CD41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BC45AA-2D5F-4DA3-AD9F-C1DF1E0323AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BC45AA-2D5F-4DA3-AD9F-C1DF1E0323AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BC45AA-2D5F-4DA3-AD9F-C1DF1E0323AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BC45AA-2D5F-4DA3-AD9F-C1DF1E0323AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +110,7 @@ Global
 		{472D44A9-6FAD-4A74-8ECA-AC41E31ADC77} = {D6C78D55-E074-425D-AF49-675F53789718}
 		{6CC7AFA9-33D0-4C34-A24C-85459033373A} = {D6C78D55-E074-425D-AF49-675F53789718}
 		{32076577-E5F9-48DB-994A-F1214A0CD41D} = {F68418D1-8FB4-4B3D-8B50-9E01114A80BA}
+		{11BC45AA-2D5F-4DA3-AD9F-C1DF1E0323AB} = {1B3A2BA0-73EC-4505-9DF0-94BE5E222939}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19B6DB31-318A-442F-B11C-00EE000A4836}

@@ -10,7 +10,7 @@ namespace DulceFácil.Aplicacion.Servicios
 {
     [ServiceContract]
 
-    internal interface IClientesServicios
+    public interface IClientesServicios
     {
         [OperationContract]
         Task AddClienteAsync(Clientes nuevoCliente);
